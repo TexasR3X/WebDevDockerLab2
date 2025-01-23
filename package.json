@@ -1,0 +1,17 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "- Build Image: $ docker build -t lab2Image:latest - Run Container (build & start): $ docker run -d --rm --name lab2container -p 8080:8080",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "TexasR3X",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
