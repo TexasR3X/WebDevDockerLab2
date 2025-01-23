@@ -1,6 +1,6 @@
 # Docker Lab 2 - Creating a Docker Image
 
-Use the following commands to deploy a simple server:
+Use the following commands to deploy a simple server using docker:
 
 ```bash
 # Build Image:
