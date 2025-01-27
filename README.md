@@ -1,6 +1,7 @@
 # Docker Labs 2 and 3
 
 Both labs deploy a simple server with the following endpoints:
+- `GET /`
 - `GET /hello`
 - `GET /good-bye`
 
@@ -25,6 +26,9 @@ Use the following command to deploy a docker stack that deploys the same server 
 ```bash
 # Deploy Stack:
 $ docker stack deploy -c docker-compose.yaml test-stack
+
+# To Delete Stack:
+$ docker stack rm test-stack
 ```
 
 Connect to this server on port 3000.
