@@ -2,14 +2,12 @@
 version: "3.8"
 services:
   service1:
-    # image: test-app-1:latest
     image: lab2-image:latest
     ports:
       - 3000:8080
     deploy:
       replicas: 3
   service2:
-    # image: test-app-2:latest
     image: lab2-image:latest
     ports:
       - 3001:8080
